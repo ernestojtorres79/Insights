@@ -1,0 +1,17 @@
+﻿<div class="form-group" ng-init="getSingleCampaign()">
+    <input class="hidden" ng-model="singleCampaign.campaignId" />
+    <p>Campaign Name:</p>
+    {{singleCampaign.CampaignName}}
+    <p>Keyword</p>
+    <input class="form-control" ng-model="singleCampaign.CampaignKeyWord" type="text" value="{{singleCampaign.CampaignKeyWord}}" />
+    <p>Campign Gift</p>
+    <input class="form-control" ng-model="singleCampaign.CampaignGift" type="text" value="{{singleCampaign.CampaignGift}}" />
+    <img src="{{singleCampaign.CampaignGift}}" />
+    <p>Is Active?</p>
+    <input class="form-control" ng-model="singleCampaign.CampaignActive" type="checkbox" />
+    <p style="color: red;">If Campaign is Deactivated, it will not show in the list of Active campaigns</p>
+
+    <button class="btn btn-default" ng-click="updateCampaign()">Update Campaign</button>
+    <a href="#/questionsList/{{singleCampaign.CampaignId}}" class="btn btn-default">See Questions</a>
+    <a href="#/addQues/{{singleCampaign.CampaignId}}" class="btn btn-default">Add Question</a>
+</div>

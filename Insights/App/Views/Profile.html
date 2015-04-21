@@ -1,0 +1,18 @@
+﻿<div class="panel panel-body">
+    <div id="leftContent">
+        <p>First Name : {{profile.firstName}}</p><br />
+        <p>Last Name : {{profile.lastName}}</p><br />
+        <p>Business Name : {{profile.businessName}}</p><br />
+        <p>Address : {{profile.address1}}</p><br />
+        <p>City : {{profile.city}}</p><br />
+        <p>State : {{profile.state}}</p><br />
+        <p>Zip : {{profile.zip}}</p><br />
+    </div>
+    <div class="panel panel-body" id="rightContent" ng-repeat="campaign in profile.Campaigns">
+        {{campaign.campaignId}}
+        <p>Campaign Name : {{campaign.CampaignName}}</p><br />
+        <p>Key Word : {{campaign.keyWord}}</p><p>   Phone Number Used : {{campaign.phoneNumber}}</p><br />
+        <p>Gift Given :</p><img id="coupon" src="{{campaign.giftGiven}}" style="display:block; width:300px; height:150px;"  />
+        <a href="#/update/{{campaign.campaignId}}" class ="btn btn-default">Update Campaign</a>
+    </div>
+</div>

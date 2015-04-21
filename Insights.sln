@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insights", "Insights\Insights.csproj", "{F85C3FB9-A995-4B1F-AE3F-ACAA51A8A507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{62A250D9-FE56-4B94-9A58-8BE5FCCB630B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insights.Data", "Insights.Data\Insights.Data.csproj", "{149CA028-DB71-4DE8-AF5F-112BE9CADCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insights.Models", "Insights.Models\Insights.Models.csproj", "{FBCBB0EB-47AA-4683-97F9-A7C9F29AB6C0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ernestojtorres.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Insights.Data\\Insights.Data.csproj
+		SccProjectName1 = Insights.Data
+		SccLocalPath1 = Insights.Data
+		SccProjectUniqueName2 = Insights.Models\\Insights.Models.csproj
+		SccProjectName2 = Insights.Models
+		SccLocalPath2 = Insights.Models
+		SccProjectUniqueName3 = Insights\\Insights.csproj
+		SccProjectName3 = Insights
+		SccLocalPath3 = Insights
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F85C3FB9-A995-4B1F-AE3F-ACAA51A8A507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85C3FB9-A995-4B1F-AE3F-ACAA51A8A507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85C3FB9-A995-4B1F-AE3F-ACAA51A8A507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85C3FB9-A995-4B1F-AE3F-ACAA51A8A507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149CA028-DB71-4DE8-AF5F-112BE9CADCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149CA028-DB71-4DE8-AF5F-112BE9CADCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149CA028-DB71-4DE8-AF5F-112BE9CADCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149CA028-DB71-4DE8-AF5F-112BE9CADCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCBB0EB-47AA-4683-97F9-A7C9F29AB6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCBB0EB-47AA-4683-97F9-A7C9F29AB6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCBB0EB-47AA-4683-97F9-A7C9F29AB6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCBB0EB-47AA-4683-97F9-A7C9F29AB6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\Insights.Models.dll.config
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\Insights.Models.dll
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\Insights.Models.pdb
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\EntityFramework.dll
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\EntityFramework.xml
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\obj\Release\Insights.Models.csprojResolveAssemblyReference.cache
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\obj\Release\Insights.Models.dll
+C:\Users\ErnestoJ\Documents\Visual Studio 2013\Projects\Insights\Insights.Models\obj\Release\Insights.Models.pdb

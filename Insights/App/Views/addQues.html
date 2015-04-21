@@ -1,0 +1,13 @@
+﻿<div class="form-group">
+    {{newQuestion.CampaignId}}
+    <p>Question:</p>
+    <input class="form-control" ng-model="newQuestion.QuestionBody" />
+    <select class="form-control" ng-model="newQuestion.QuestionType">
+        <option value="" selected>Select type</option>
+        <option value="Quantifiable">Quantifiable</option>
+        <option value="YES/NO">YES/NO</option>
+        <option value="OpenAnswer">Open Answer</option>
+    </select>
+    
+    <button class="btn btn-default" ng-click="addNewQuestion()">Add Question</button>
+</div>

@@ -1,0 +1,12 @@
+﻿<div ng-init="getAllCampaigns()">
+    <div class="form-inline">
+        <input class="form-control" type="text" ng-model="search" placeholder="Search" />
+    </div>
+    <div class="panel panel-default" ng-repeat="campaign in GetCampaigns | filter:search">
+        <p>Campaign Name:</p><p>{{campaign.CampaignName}}</p><br />
+        <p>Keyword:</p><p>{{campaign.CampaignKeyWord}}</p><br />
+        <p>Is it Active?</p><input class="form-control" type="checkbox" ng-model="campaign.CampaignActive" /><br />
+        <p>Campaign Gift:</p><img src="{{campaign.CampaignGift}}" style="width:250px; height: auto;" /><br />
+        <a href="#/update/{{campaign.CampaignId}}" class="btn btn-default">Update Campaign</a>
+    </div>
+</div>

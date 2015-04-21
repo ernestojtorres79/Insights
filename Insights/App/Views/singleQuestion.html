@@ -1,0 +1,14 @@
+﻿<div class="panel panel-group" ng-init="getSingleQuestion()">
+    <div class="panel panel-body">
+        <input class="form-control" type="text" ng-model="singleQuestion.QuestionBody" value="{{singleQuestion.QuestionBody}}" /><br />
+        <select class="form-control" ng-model="singleQuestion.QuestionType">
+            <option value="{{singleQuestion.QuestionType}}" selected>{{singleQuestion.QuestionType}}</option>
+            <option value="Quantifiable">Quantifiable</option>
+            <option value="YES/NO">YES/NO</option>
+            <option value="OpenAnswer">Open Answer</option>
+        </select>
+        <input class="form-control" type="checkbox" ng-model="singleQuestion.QuestionActive" />
+        <input class="hidden" type="text" value="{{singleQuestion.CampaignId}}" />
+        <button class="btn btn-default" ng-click="updateQuestion()">Update</button>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+﻿<div class="panel panel-bos" ng-init="getAllQuestions()">
+    <input class="form-control" type="text" ng-model="search" placeholder="Search"/>
+    <div class="panel panel-default" style="width:50%;" ng-repeat="question in AllQuestions | filter : search">
+        <span>{{question.QuestionBody}}</span><br />
+        <span>{{question.QuestionType}}</span><input type="checkbox" class="input-group" ng-model="question.QuestionActive" />
+        <a href="#/singleques/{{question.QuestionId}}" cla class="btn btn-default">Update Question</a>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+﻿<div class="form-inline">
+    <button class="form-control" ng-click="GetCampaignKeyWords()">Get Campaigns!</button>
+    <button class="form-control" ng-click="MsgPoll()">Get List! Set Time Out</button>
+    <button class="form-control" ng-click="StopMsgPoll()">Stop Polling</button>
+    <div class="panel panel-default" ng-repeat="msg in GetListMsgs">
+        <span>{{msg.From}}</span><span>{{msg.Body}}</span><br />
+    </div>
+    <h1>832-410-1832</h1>
+</div>
